@@ -1,0 +1,19 @@
+node_modules
+# Keep environment variables out of version control
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Ignore Mac and Linux file system files
+.DS_Store
+# Ignore the build directory
+/build
+# Ignore the public directory
+
+/node_modules
+# Ignore the .cache directory
+.cache
+# Ignore the .env file
+
+

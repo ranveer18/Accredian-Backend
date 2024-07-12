@@ -1,0 +1,25 @@
+{
+  "name": "referral-system",
+  "version": "1.0.0",
+  "description": "A referral system with REST APIs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.30.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^89.0.0",
+    "mysql2": "^3.10.2",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prisma": "^2.30.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
